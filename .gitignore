@@ -1,0 +1,29 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+!apps/frontend/.env.development
+
+# Node / Next
+node_modules/
+.next/
+out/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

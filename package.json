@@ -1,0 +1,18 @@
+{
+  "name": "developer-profile-aggregator",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n frontend,backend \"npm run dev --workspace=@developer-profile/frontend\" \"python -m uvicorn app.main:app --reload --app-dir apps/backend --host 127.0.0.1 --port 8000\"",
+    "dev:frontend": "npm run dev --workspace=@developer-profile/frontend",
+    "dev:backend": "python -m uvicorn app.main:app --reload --app-dir apps/backend --host 127.0.0.1 --port 8000",
+    "build": "npm run build --workspace=@developer-profile/frontend",
+    "start": "python -m uvicorn app.main:app --app-dir apps/backend --host 0.0.0.0 --port 8000"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
