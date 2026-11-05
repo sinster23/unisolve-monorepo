@@ -17,7 +17,13 @@ __pycache__/
 venv/
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 *.egg-info/
+
+# Live LeetCode checks: contain real profile data / were used with real credentials
+apps/backend/tests/leetcode/live_output.json
 
 # Editors / OS
 .vscode/

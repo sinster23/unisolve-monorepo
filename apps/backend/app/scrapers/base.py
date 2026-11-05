@@ -1,9 +1,13 @@
-from typing import Protocol, TypeVar
+from typing import Protocol
 
-ProfileT = TypeVar("ProfileT")
+from app.models.common import PlatformData
 
 
-class BaseScraper(Protocol[ProfileT]):
-    async def fetch_profile(self, username: str) -> ProfileT:
-        """Fetch and return a validated, platform-specific profile model."""
+class BaseScraper(Protocol):
+    """Contract every platform adapter implements."""
+
+    platform: str
+
+    async def fetch_all(self, username: str | None = None) -> PlatformData:
+        """Fetch everything for `username` and return normalized data."""
         ...
