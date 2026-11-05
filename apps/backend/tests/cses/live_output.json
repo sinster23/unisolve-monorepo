@@ -1,0 +1,1344 @@
+{
+  "error": null,
+  "platform_data": {
+    "platform": "cses",
+    "username": "Tanmandal",
+    "profile_url": "https://cses.fi/user/453086",
+    "fetched_at": "2026-11-05T14:28:29.152743Z",
+    "statistics": {
+      "total_solved": 26,
+      "easy_solved": null,
+      "medium_solved": null,
+      "hard_solved": null,
+      "total_submissions": null,
+      "accepted_submissions": null,
+      "language_stats": {},
+      "topic_stats": {}
+    },
+    "solved_problems": [
+      {
+        "problem_id": "1068",
+        "title": "Weird Algorithm",
+        "problem_url": "https://cses.fi/problemset/task/1068",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-09T07:05:48Z",
+        "first_submitted_at": "2026-08-09T07:05:48Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1083",
+        "title": "Missing Number",
+        "problem_url": "https://cses.fi/problemset/task/1083",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-09T07:11:47Z",
+        "first_submitted_at": "2026-08-09T07:11:47Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1069",
+        "title": "Repetitions",
+        "problem_url": "https://cses.fi/problemset/task/1069",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-09T07:19:50Z",
+        "first_submitted_at": "2026-08-09T07:19:50Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1094",
+        "title": "Increasing Array",
+        "problem_url": "https://cses.fi/problemset/task/1094",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-09T07:44:58Z",
+        "first_submitted_at": "2026-08-09T07:44:58Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1070",
+        "title": "Permutations",
+        "problem_url": "https://cses.fi/problemset/task/1070",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-09T08:23:45Z",
+        "first_submitted_at": "2026-08-09T08:23:45Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1071",
+        "title": "Number Spiral",
+        "problem_url": "https://cses.fi/problemset/task/1071",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-09T09:20:17Z",
+        "first_submitted_at": "2026-08-09T09:20:17Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1072",
+        "title": "Two Knights",
+        "problem_url": "https://cses.fi/problemset/task/1072",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-09T09:39:55Z",
+        "first_submitted_at": "2026-08-09T09:39:55Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1092",
+        "title": "Two Sets",
+        "problem_url": "https://cses.fi/problemset/task/1092",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-12T13:12:17Z",
+        "first_submitted_at": "2026-08-12T12:58:28Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1617",
+        "title": "Bit Strings",
+        "problem_url": "https://cses.fi/problemset/task/1617",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-12T13:40:43Z",
+        "first_submitted_at": "2026-08-12T13:34:17Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1618",
+        "title": "Trailing Zeros",
+        "problem_url": "https://cses.fi/problemset/task/1618",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-12T15:15:45Z",
+        "first_submitted_at": "2026-08-12T15:11:11Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1754",
+        "title": "Coin Piles",
+        "problem_url": "https://cses.fi/problemset/task/1754",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-12T15:24:44Z",
+        "first_submitted_at": "2026-08-12T15:24:44Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1755",
+        "title": "Palindrome Reorder",
+        "problem_url": "https://cses.fi/problemset/task/1755",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-12T15:42:46Z",
+        "first_submitted_at": "2026-08-12T15:42:46Z",
+        "topics": []
+      },
+      {
+        "problem_id": "2205",
+        "title": "Gray Code",
+        "problem_url": "https://cses.fi/problemset/task/2205",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-12T16:17:10Z",
+        "first_submitted_at": "2026-08-12T16:11:01Z",
+        "topics": []
+      },
+      {
+        "problem_id": "2165",
+        "title": "Tower of Hanoi",
+        "problem_url": "https://cses.fi/problemset/task/2165",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-13T13:42:57Z",
+        "first_submitted_at": "2026-08-13T13:42:57Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1622",
+        "title": "Creating Strings",
+        "problem_url": "https://cses.fi/problemset/task/1622",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-15T03:46:44Z",
+        "first_submitted_at": "2026-08-15T03:46:44Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1623",
+        "title": "Apple Division",
+        "problem_url": "https://cses.fi/problemset/task/1623",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-15T04:29:56Z",
+        "first_submitted_at": "2026-08-15T04:29:56Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1624",
+        "title": "Chessboard and Queens",
+        "problem_url": "https://cses.fi/problemset/task/1624",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-16T05:15:24Z",
+        "first_submitted_at": "2026-08-16T05:15:24Z",
+        "topics": []
+      },
+      {
+        "problem_id": "3399",
+        "title": "Raab Game I",
+        "problem_url": "https://cses.fi/problemset/task/3399",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-21T16:25:08Z",
+        "first_submitted_at": "2026-08-21T16:25:08Z",
+        "topics": []
+      },
+      {
+        "problem_id": "3419",
+        "title": "Mex Grid Construction",
+        "problem_url": "https://cses.fi/problemset/task/3419",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-16T05:26:30Z",
+        "first_submitted_at": "2026-08-16T05:26:30Z",
+        "topics": []
+      },
+      {
+        "problem_id": "3217",
+        "title": "Knight Moves Grid",
+        "problem_url": "https://cses.fi/problemset/task/3217",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-21T16:58:26Z",
+        "first_submitted_at": "2026-08-21T16:58:26Z",
+        "topics": []
+      },
+      {
+        "problem_id": "2431",
+        "title": "Digit Queries",
+        "problem_url": "https://cses.fi/problemset/task/2431",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-21T18:13:56Z",
+        "first_submitted_at": "2026-08-21T18:13:56Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1743",
+        "title": "String Reorder",
+        "problem_url": "https://cses.fi/problemset/task/1743",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-08-24T17:55:25Z",
+        "first_submitted_at": "2026-08-24T17:25:58Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1621",
+        "title": "Distinct Numbers",
+        "problem_url": "https://cses.fi/problemset/task/1621",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-10-10T10:05:01Z",
+        "first_submitted_at": "2026-10-10T10:05:01Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1084",
+        "title": "Apartments",
+        "problem_url": "https://cses.fi/problemset/task/1084",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-10-10T10:54:20Z",
+        "first_submitted_at": "2026-10-10T10:54:20Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1090",
+        "title": "Ferris Wheel",
+        "problem_url": "https://cses.fi/problemset/task/1090",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-10-10T11:53:45Z",
+        "first_submitted_at": "2026-10-10T11:53:45Z",
+        "topics": []
+      },
+      {
+        "problem_id": "1091",
+        "title": "Concert Tickets",
+        "problem_url": "https://cses.fi/problemset/task/1091",
+        "difficulty": "unknown",
+        "last_submitted_at": "2026-10-11T04:37:12Z",
+        "first_submitted_at": "2026-10-11T04:37:12Z",
+        "topics": []
+      }
+    ],
+    "recent_submissions": [
+      {
+        "submission_id": "cses-1091-1791693432",
+        "problem_id": "1091",
+        "problem_title": "Concert Tickets",
+        "problem_url": "https://cses.fi/problemset/task/1091",
+        "submitted_at": "2026-10-11T04:37:12Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1090-1791633225",
+        "problem_id": "1090",
+        "problem_title": "Ferris Wheel",
+        "problem_url": "https://cses.fi/problemset/task/1090",
+        "submitted_at": "2026-10-10T11:53:45Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1084-1791629660",
+        "problem_id": "1084",
+        "problem_title": "Apartments",
+        "problem_url": "https://cses.fi/problemset/task/1084",
+        "submitted_at": "2026-10-10T10:54:20Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1621-1791626701",
+        "problem_id": "1621",
+        "problem_title": "Distinct Numbers",
+        "problem_url": "https://cses.fi/problemset/task/1621",
+        "submitted_at": "2026-10-10T10:05:01Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1743-1787594125",
+        "problem_id": "1743",
+        "problem_title": "String Reorder",
+        "problem_url": "https://cses.fi/problemset/task/1743",
+        "submitted_at": "2026-08-24T17:55:25Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-2431-1787336036",
+        "problem_id": "2431",
+        "problem_title": "Digit Queries",
+        "problem_url": "https://cses.fi/problemset/task/2431",
+        "submitted_at": "2026-08-21T18:13:56Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-3217-1787331506",
+        "problem_id": "3217",
+        "problem_title": "Knight Moves Grid",
+        "problem_url": "https://cses.fi/problemset/task/3217",
+        "submitted_at": "2026-08-21T16:58:26Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-3399-1787329508",
+        "problem_id": "3399",
+        "problem_title": "Raab Game I",
+        "problem_url": "https://cses.fi/problemset/task/3399",
+        "submitted_at": "2026-08-21T16:25:08Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-3419-1786857990",
+        "problem_id": "3419",
+        "problem_title": "Mex Grid Construction",
+        "problem_url": "https://cses.fi/problemset/task/3419",
+        "submitted_at": "2026-08-16T05:26:30Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1624-1786857324",
+        "problem_id": "1624",
+        "problem_title": "Chessboard and Queens",
+        "problem_url": "https://cses.fi/problemset/task/1624",
+        "submitted_at": "2026-08-16T05:15:24Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1623-1786768196",
+        "problem_id": "1623",
+        "problem_title": "Apple Division",
+        "problem_url": "https://cses.fi/problemset/task/1623",
+        "submitted_at": "2026-08-15T04:29:56Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1622-1786765604",
+        "problem_id": "1622",
+        "problem_title": "Creating Strings",
+        "problem_url": "https://cses.fi/problemset/task/1622",
+        "submitted_at": "2026-08-15T03:46:44Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-2165-1786628577",
+        "problem_id": "2165",
+        "problem_title": "Tower of Hanoi",
+        "problem_url": "https://cses.fi/problemset/task/2165",
+        "submitted_at": "2026-08-13T13:42:57Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-2205-1786551430",
+        "problem_id": "2205",
+        "problem_title": "Gray Code",
+        "problem_url": "https://cses.fi/problemset/task/2205",
+        "submitted_at": "2026-08-12T16:17:10Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1755-1786549366",
+        "problem_id": "1755",
+        "problem_title": "Palindrome Reorder",
+        "problem_url": "https://cses.fi/problemset/task/1755",
+        "submitted_at": "2026-08-12T15:42:46Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1754-1786548284",
+        "problem_id": "1754",
+        "problem_title": "Coin Piles",
+        "problem_url": "https://cses.fi/problemset/task/1754",
+        "submitted_at": "2026-08-12T15:24:44Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1618-1786547745",
+        "problem_id": "1618",
+        "problem_title": "Trailing Zeros",
+        "problem_url": "https://cses.fi/problemset/task/1618",
+        "submitted_at": "2026-08-12T15:15:45Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1617-1786542043",
+        "problem_id": "1617",
+        "problem_title": "Bit Strings",
+        "problem_url": "https://cses.fi/problemset/task/1617",
+        "submitted_at": "2026-08-12T13:40:43Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1092-1786540337",
+        "problem_id": "1092",
+        "problem_title": "Two Sets",
+        "problem_url": "https://cses.fi/problemset/task/1092",
+        "submitted_at": "2026-08-12T13:12:17Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1072-1786268395",
+        "problem_id": "1072",
+        "problem_title": "Two Knights",
+        "problem_url": "https://cses.fi/problemset/task/1072",
+        "submitted_at": "2026-08-09T09:39:55Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1071-1786267217",
+        "problem_id": "1071",
+        "problem_title": "Number Spiral",
+        "problem_url": "https://cses.fi/problemset/task/1071",
+        "submitted_at": "2026-08-09T09:20:17Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1070-1786263825",
+        "problem_id": "1070",
+        "problem_title": "Permutations",
+        "problem_url": "https://cses.fi/problemset/task/1070",
+        "submitted_at": "2026-08-09T08:23:45Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1094-1786261498",
+        "problem_id": "1094",
+        "problem_title": "Increasing Array",
+        "problem_url": "https://cses.fi/problemset/task/1094",
+        "submitted_at": "2026-08-09T07:44:58Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1069-1786259990",
+        "problem_id": "1069",
+        "problem_title": "Repetitions",
+        "problem_url": "https://cses.fi/problemset/task/1069",
+        "submitted_at": "2026-08-09T07:19:50Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1083-1786259507",
+        "problem_id": "1083",
+        "problem_title": "Missing Number",
+        "problem_url": "https://cses.fi/problemset/task/1083",
+        "submitted_at": "2026-08-09T07:11:47Z",
+        "status": "Accepted",
+        "language": "Java"
+      },
+      {
+        "submission_id": "cses-1068-1786259148",
+        "problem_id": "1068",
+        "problem_title": "Weird Algorithm",
+        "problem_url": "https://cses.fi/problemset/task/1068",
+        "submitted_at": "2026-08-09T07:05:48Z",
+        "status": "Accepted",
+        "language": "Java"
+      }
+    ],
+    "activity": null,
+    "metadata": {
+      "auth_status": "authenticated",
+      "solved_problems_status": "complete",
+      "solved_problems_expected": 26,
+      "failed_sections": [],
+      "warnings": [],
+      "is_complete": true
+    }
+  },
+  "checks": [
+    {
+      "check": "statistics present",
+      "ok": true,
+      "detail": "total_solved=26"
+    },
+    {
+      "check": "auth status",
+      "ok": true,
+      "detail": "authenticated"
+    },
+    {
+      "check": "profile url present",
+      "ok": true,
+      "detail": "https://cses.fi/user/453086"
+    },
+    {
+      "check": "solved list complete",
+      "ok": true,
+      "detail": "complete, expected=26"
+    },
+    {
+      "check": "solved count == statistics.total_solved",
+      "ok": true,
+      "detail": "26 vs 26"
+    },
+    {
+      "check": "solved count == raw solved tasks",
+      "ok": true,
+      "detail": "26 vs 26"
+    },
+    {
+      "check": "no duplicate solved problems",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "every solved problem has first_submitted_at",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "every solved problem has last_submitted_at",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "first_submitted_at <= last_submitted_at",
+      "ok": true,
+      "detail": "violations: []"
+    },
+    {
+      "check": "recent submissions == one per solved problem",
+      "ok": true,
+      "detail": "26 vs 26"
+    },
+    {
+      "check": "submissions all Accepted",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "submissions match first_submitted_at",
+      "ok": false,
+      "detail": "mismatches: ['1743', '2205', '1618', '1617', '1092']"
+    },
+    {
+      "check": "submission ids unique",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "all timestamps timezone-aware",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "unsupported stats left None (not 0)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "is_complete",
+      "ok": true,
+      "detail": "failed_sections=[]"
+    }
+  ],
+  "elapsed_seconds": 2.28,
+  "request_count": 27,
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/",
+      "seconds": 0.515,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1068/",
+      "seconds": 0.205,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1083/",
+      "seconds": 0.562,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1069/",
+      "seconds": 0.717,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1094/",
+      "seconds": 0.641,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1070/",
+      "seconds": 0.843,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1071/",
+      "seconds": 0.74,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1072/",
+      "seconds": 0.879,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1092/",
+      "seconds": 0.689,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1617/",
+      "seconds": 0.618,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1618/",
+      "seconds": 0.835,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1754/",
+      "seconds": 0.878,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1755/",
+      "seconds": 0.749,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/2205/",
+      "seconds": 0.837,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/2165/",
+      "seconds": 0.89,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1622/",
+      "seconds": 0.805,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1623/",
+      "seconds": 0.788,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1624/",
+      "seconds": 0.833,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/3399/",
+      "seconds": 0.78,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/3419/",
+      "seconds": 0.879,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/3217/",
+      "seconds": 0.899,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/2431/",
+      "seconds": 0.888,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1743/",
+      "seconds": 0.854,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1621/",
+      "seconds": 0.857,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1084/",
+      "seconds": 0.879,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1090/",
+      "seconds": 0.898,
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://cses.fi/problemset/view/1091/",
+      "seconds": 0.844,
+      "status": 200
+    }
+  ],
+  "raw_problemset": {
+    "total": 400,
+    "solved": [
+      {
+        "id": "1068",
+        "name": "Weird Algorithm",
+        "detail": "183426 / 191488",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-09 12:35:48",
+          "language": "Java",
+          "unix_time": 1786259148
+        },
+        "newest_solve": {
+          "time_str": "2026-08-09 12:35:48",
+          "language": "Java",
+          "unix_time": 1786259148
+        },
+        "latest_submission": {
+          "time_str": "2026-08-09 12:35:48",
+          "language": "Java",
+          "unix_time": 1786259148,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1083",
+        "name": "Missing Number",
+        "detail": "158215 / 165305",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-09 12:41:47",
+          "language": "Java",
+          "unix_time": 1786259507
+        },
+        "newest_solve": {
+          "time_str": "2026-08-09 12:41:47",
+          "language": "Java",
+          "unix_time": 1786259507
+        },
+        "latest_submission": {
+          "time_str": "2026-08-09 12:41:47",
+          "language": "Java",
+          "unix_time": 1786259507,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1069",
+        "name": "Repetitions",
+        "detail": "137347 / 142439",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-09 12:49:50",
+          "language": "Java",
+          "unix_time": 1786259990
+        },
+        "newest_solve": {
+          "time_str": "2026-08-09 12:49:50",
+          "language": "Java",
+          "unix_time": 1786259990
+        },
+        "latest_submission": {
+          "time_str": "2026-08-09 12:49:50",
+          "language": "Java",
+          "unix_time": 1786259990,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1094",
+        "name": "Increasing Array",
+        "detail": "129613 / 133864",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-09 13:14:58",
+          "language": "Java",
+          "unix_time": 1786261498
+        },
+        "newest_solve": {
+          "time_str": "2026-08-09 13:14:58",
+          "language": "Java",
+          "unix_time": 1786261498
+        },
+        "latest_submission": {
+          "time_str": "2026-08-09 13:14:58",
+          "language": "Java",
+          "unix_time": 1786261498,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1070",
+        "name": "Permutations",
+        "detail": "113198 / 116436",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-09 13:53:45",
+          "language": "Java",
+          "unix_time": 1786263825
+        },
+        "newest_solve": {
+          "time_str": "2026-08-09 13:53:45",
+          "language": "Java",
+          "unix_time": 1786263825
+        },
+        "latest_submission": {
+          "time_str": "2026-08-09 13:53:45",
+          "language": "Java",
+          "unix_time": 1786263825,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1071",
+        "name": "Number Spiral",
+        "detail": "80538 / 87264",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-09 14:50:17",
+          "language": "Java",
+          "unix_time": 1786267217
+        },
+        "newest_solve": {
+          "time_str": "2026-08-09 14:50:17",
+          "language": "Java",
+          "unix_time": 1786267217
+        },
+        "latest_submission": {
+          "time_str": "2026-08-09 14:50:17",
+          "language": "Java",
+          "unix_time": 1786267217,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1072",
+        "name": "Two Knights",
+        "detail": "62181 / 63977",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-09 15:09:55",
+          "language": "Java",
+          "unix_time": 1786268395
+        },
+        "newest_solve": {
+          "time_str": "2026-08-09 15:09:55",
+          "language": "Java",
+          "unix_time": 1786268395
+        },
+        "latest_submission": {
+          "time_str": "2026-08-09 15:09:55",
+          "language": "Java",
+          "unix_time": 1786268395,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1092",
+        "name": "Two Sets",
+        "detail": "67531 / 72202",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-12 18:28:28",
+          "language": "Java",
+          "unix_time": 1786539508
+        },
+        "newest_solve": {
+          "time_str": "2026-08-12 18:42:17",
+          "language": "Java",
+          "unix_time": 1786540337
+        },
+        "latest_submission": {
+          "time_str": "2026-08-12 18:42:17",
+          "language": "Java",
+          "unix_time": 1786540337,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1617",
+        "name": "Bit Strings",
+        "detail": "76695 / 80679",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-12 19:04:17",
+          "language": "Java",
+          "unix_time": 1786541657
+        },
+        "newest_solve": {
+          "time_str": "2026-08-12 19:10:43",
+          "language": "Java",
+          "unix_time": 1786542043
+        },
+        "latest_submission": {
+          "time_str": "2026-08-12 19:10:43",
+          "language": "Java",
+          "unix_time": 1786542043,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1618",
+        "name": "Trailing Zeros",
+        "detail": "70994 / 75276",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-12 20:41:11",
+          "language": "Java",
+          "unix_time": 1786547471
+        },
+        "newest_solve": {
+          "time_str": "2026-08-12 20:45:45",
+          "language": "Java",
+          "unix_time": 1786547745
+        },
+        "latest_submission": {
+          "time_str": "2026-08-12 20:45:45",
+          "language": "Java",
+          "unix_time": 1786547745,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1754",
+        "name": "Coin Piles",
+        "detail": "63260 / 68740",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-12 20:54:44",
+          "language": "Java",
+          "unix_time": 1786548284
+        },
+        "newest_solve": {
+          "time_str": "2026-08-12 20:54:44",
+          "language": "Java",
+          "unix_time": 1786548284
+        },
+        "latest_submission": {
+          "time_str": "2026-08-12 20:54:44",
+          "language": "Java",
+          "unix_time": 1786548284,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1755",
+        "name": "Palindrome Reorder",
+        "detail": "58878 / 61889",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-12 21:12:46",
+          "language": "Java",
+          "unix_time": 1786549366
+        },
+        "newest_solve": {
+          "time_str": "2026-08-12 21:12:46",
+          "language": "Java",
+          "unix_time": 1786549366
+        },
+        "latest_submission": {
+          "time_str": "2026-08-12 21:12:46",
+          "language": "Java",
+          "unix_time": 1786549366,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "2205",
+        "name": "Gray Code",
+        "detail": "40309 / 44884",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-12 21:41:01",
+          "language": "Java",
+          "unix_time": 1786551061
+        },
+        "newest_solve": {
+          "time_str": "2026-08-12 21:47:10",
+          "language": "Java",
+          "unix_time": 1786551430
+        },
+        "latest_submission": {
+          "time_str": "2026-08-12 21:47:10",
+          "language": "Java",
+          "unix_time": 1786551430,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "2165",
+        "name": "Tower of Hanoi",
+        "detail": "37686 / 39104",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-13 19:12:57",
+          "language": "Java",
+          "unix_time": 1786628577
+        },
+        "newest_solve": {
+          "time_str": "2026-08-13 19:12:57",
+          "language": "Java",
+          "unix_time": 1786628577
+        },
+        "latest_submission": {
+          "time_str": "2026-08-13 19:12:57",
+          "language": "Java",
+          "unix_time": 1786628577,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1622",
+        "name": "Creating Strings",
+        "detail": "49583 / 50770",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-15 09:16:44",
+          "language": "Java",
+          "unix_time": 1786765604
+        },
+        "newest_solve": {
+          "time_str": "2026-08-15 09:16:44",
+          "language": "Java",
+          "unix_time": 1786765604
+        },
+        "latest_submission": {
+          "time_str": "2026-08-15 09:16:44",
+          "language": "Java",
+          "unix_time": 1786765604,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1623",
+        "name": "Apple Division",
+        "detail": "50517 / 56513",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-15 09:59:56",
+          "language": "Java",
+          "unix_time": 1786768196
+        },
+        "newest_solve": {
+          "time_str": "2026-08-15 09:59:56",
+          "language": "Java",
+          "unix_time": 1786768196
+        },
+        "latest_submission": {
+          "time_str": "2026-08-15 09:59:56",
+          "language": "Java",
+          "unix_time": 1786768196,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1624",
+        "name": "Chessboard and Queens",
+        "detail": "30749 / 31259",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-16 10:45:24",
+          "language": "Java",
+          "unix_time": 1786857324
+        },
+        "newest_solve": {
+          "time_str": "2026-08-16 10:45:24",
+          "language": "Java",
+          "unix_time": 1786857324
+        },
+        "latest_submission": {
+          "time_str": "2026-08-16 10:45:24",
+          "language": "Java",
+          "unix_time": 1786857324,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "3399",
+        "name": "Raab Game I",
+        "detail": "8551 / 9523",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-21 21:55:08",
+          "language": "Java",
+          "unix_time": 1787329508
+        },
+        "newest_solve": {
+          "time_str": "2026-08-21 21:55:08",
+          "language": "Java",
+          "unix_time": 1787329508
+        },
+        "latest_submission": {
+          "time_str": "2026-08-21 21:55:08",
+          "language": "Java",
+          "unix_time": 1787329508,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "3419",
+        "name": "Mex Grid Construction",
+        "detail": "8240 / 8637",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-16 10:56:30",
+          "language": "Java",
+          "unix_time": 1786857990
+        },
+        "newest_solve": {
+          "time_str": "2026-08-16 10:56:30",
+          "language": "Java",
+          "unix_time": 1786857990
+        },
+        "latest_submission": {
+          "time_str": "2026-08-16 10:56:30",
+          "language": "Java",
+          "unix_time": 1786857990,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "3217",
+        "name": "Knight Moves Grid",
+        "detail": "8339 / 8528",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-21 22:28:26",
+          "language": "Java",
+          "unix_time": 1787331506
+        },
+        "newest_solve": {
+          "time_str": "2026-08-21 22:28:26",
+          "language": "Java",
+          "unix_time": 1787331506
+        },
+        "latest_submission": {
+          "time_str": "2026-08-21 22:28:26",
+          "language": "Java",
+          "unix_time": 1787331506,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "2431",
+        "name": "Digit Queries",
+        "detail": "21528 / 24580",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-21 23:43:56",
+          "language": "Java",
+          "unix_time": 1787336036
+        },
+        "newest_solve": {
+          "time_str": "2026-08-21 23:43:56",
+          "language": "Java",
+          "unix_time": 1787336036
+        },
+        "latest_submission": {
+          "time_str": "2026-08-21 23:43:56",
+          "language": "Java",
+          "unix_time": 1787336036,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1743",
+        "name": "String Reorder",
+        "detail": "6219 / 7090",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-08-24 22:55:58",
+          "language": "Java",
+          "unix_time": 1787592358
+        },
+        "newest_solve": {
+          "time_str": "2026-08-24 23:25:25",
+          "language": "Java",
+          "unix_time": 1787594125
+        },
+        "latest_submission": {
+          "time_str": "2026-08-24 23:25:25",
+          "language": "Java",
+          "unix_time": 1787594125,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1621",
+        "name": "Distinct Numbers",
+        "detail": "91290 / 98145",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-10-10 15:35:01",
+          "language": "Java",
+          "unix_time": 1791626701
+        },
+        "newest_solve": {
+          "time_str": "2026-10-10 15:35:01",
+          "language": "Java",
+          "unix_time": 1791626701
+        },
+        "latest_submission": {
+          "time_str": "2026-10-10 15:35:01",
+          "language": "Java",
+          "unix_time": 1791626701,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1084",
+        "name": "Apartments",
+        "detail": "68490 / 75198",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-10-10 16:24:20",
+          "language": "Java",
+          "unix_time": 1791629660
+        },
+        "newest_solve": {
+          "time_str": "2026-10-10 16:24:20",
+          "language": "Java",
+          "unix_time": 1791629660
+        },
+        "latest_submission": {
+          "time_str": "2026-10-10 16:24:20",
+          "language": "Java",
+          "unix_time": 1791629660,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1090",
+        "name": "Ferris Wheel",
+        "detail": "66098 / 70720",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-10-10 17:23:45",
+          "language": "Java",
+          "unix_time": 1791633225
+        },
+        "newest_solve": {
+          "time_str": "2026-10-10 17:23:45",
+          "language": "Java",
+          "unix_time": 1791633225
+        },
+        "latest_submission": {
+          "time_str": "2026-10-10 17:23:45",
+          "language": "Java",
+          "unix_time": 1791633225,
+          "status": "Accepted"
+        }
+      },
+      {
+        "id": "1091",
+        "name": "Concert Tickets",
+        "detail": "53028 / 60995",
+        "score": "icon full",
+        "oldest_solve": {
+          "time_str": "2026-10-11 10:07:12",
+          "language": "Java",
+          "unix_time": 1791693432
+        },
+        "newest_solve": {
+          "time_str": "2026-10-11 10:07:12",
+          "language": "Java",
+          "unix_time": 1791693432
+        },
+        "latest_submission": {
+          "time_str": "2026-10-11 10:07:12",
+          "language": "Java",
+          "unix_time": 1791693432,
+          "status": "Accepted"
+        }
+      }
+    ],
+    "attempted": [
+      {
+        "id": "1625",
+        "name": "Grid Path Description",
+        "detail": "12093 / 15410",
+        "score": "icon zero"
+      }
+    ],
+    "partial": [],
+    "skipped": [],
+    "pending": [],
+    "compile_err": [],
+    "not_attempted": [],
+    "profile_href": "/user/453086"
+  }
+}

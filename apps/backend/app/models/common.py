@@ -15,7 +15,7 @@ class Difficulty(StrEnum):
     HARD = "hard"
     UNKNOWN = "unknown"
 
-
+    
 class SolvedProblem(BaseModel):
     """One unique problem solved by the user (appears once per problem)."""
 
@@ -23,8 +23,10 @@ class SolvedProblem(BaseModel):
     title: str
     problem_url: HttpUrl | None = None
     difficulty: Difficulty = Difficulty.UNKNOWN
-    # Last known submission time for this problem, NOT the time it was first solved.
+    # Last known successful submission time for this problem, NOT the time it was first solved.
     last_submitted_at: AwareDatetime | None = None
+    # First known successful submission time for this problem, NOT the time it was last solved.
+    first_submitted_at: AwareDatetime | None = None
     topics: list[str] = Field(default_factory=list)
 
 
