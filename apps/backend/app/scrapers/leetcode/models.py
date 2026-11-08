@@ -170,6 +170,41 @@ class CalendarResponse(_LC):
     matched_user: CalendarUser | None = Field(None, alias="matchedUser")
 
 
+# ---- G. contests -------------------------------------------------------------
+class ContestBadge(_LC):
+    name: str | None = None
+
+
+class ContestRanking(_LC):
+    """Current standing. The whole object is null for users who never entered a contest."""
+
+    attended_contests_count: int | None = Field(None, alias="attendedContestsCount")
+    rating: float | None = None  # delivered as a float, e.g. 1873.42
+    global_ranking: int | None = Field(None, alias="globalRanking")
+    total_participants: int | None = Field(None, alias="totalParticipants")
+    top_percentage: float | None = Field(None, alias="topPercentage")
+    badge: ContestBadge | None = None  # null until a badge is earned
+
+
+class ContestInfo(_LC):
+    title: str | None = None
+    start_time: int | None = Field(None, alias="startTime")  # unix seconds
+
+
+class ContestHistoryEntry(_LC):
+    attended: bool = False  # False => registered but did not take part
+    rating: float | None = None  # rating AFTER this contest
+    ranking: int | None = None
+    contest: ContestInfo | None = None
+
+
+class ContestResponse(_LC):
+    user_contest_ranking: ContestRanking | None = Field(None, alias="userContestRanking")
+    user_contest_ranking_history: Annotated[
+        list[ContestHistoryEntry], BeforeValidator(_none_to_list)
+    ] = Field(default_factory=list, alias="userContestRankingHistory")
+
+
 # ---- session check -----------------------------------------------------------
 class UserStatus(_LC):
     is_signed_in: bool = Field(False, alias="isSignedIn")

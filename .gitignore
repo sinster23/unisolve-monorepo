@@ -22,8 +22,8 @@ venv/
 htmlcov/
 *.egg-info/
 
-# Live LeetCode checks: contain real profile data / were used with real credentials
-apps/backend/tests/leetcode/live_output.json
+# Live checks: contain real profile data / were used with real credentials
+apps/backend/tests/**/*.json
 
 # Editors / OS
 .vscode/

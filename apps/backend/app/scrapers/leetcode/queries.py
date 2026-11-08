@@ -127,3 +127,32 @@ query globalData {
     }
 }
 """
+
+# Public. Both root fields take a username; one request returns the current
+# contest standing and the per-contest history. `userContestRanking` is null for
+# users who never entered a contest. The history also lists contests the user
+# registered for but did not attend (`attended: false`).
+# NOTE: field names come from LeetCode's public GraphQL schema; verify with the live test.
+CONTEST_QUERY = """
+query userContest($username: String!) {
+    userContestRanking(username: $username) {
+        attendedContestsCount
+        rating
+        globalRanking
+        totalParticipants
+        topPercentage
+        badge {
+            name
+        }
+    }
+    userContestRankingHistory(username: $username) {
+        attended
+        rating
+        ranking
+        contest {
+            title
+            startTime
+        }
+    }
+}
+"""

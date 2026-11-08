@@ -24,6 +24,7 @@ class Settings(BaseSettings):
     leetcode_csrf_token: SecretStr | None = None
     cses_username: str | None = None
     cses_password: SecretStr | None = None
+    codeforces_username: str | None = None 
     request_timeout: float = 15.0
 
     @property

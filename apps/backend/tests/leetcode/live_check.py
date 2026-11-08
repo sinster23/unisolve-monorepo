@@ -16,6 +16,7 @@ import asyncio
 import json
 import time
 from collections import Counter
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from app.config import get_settings
@@ -30,6 +31,12 @@ def run_checks(data) -> list[dict]:
     urls = [str(p.problem_url) for p in solved]
     stamps = [p.last_submitted_at for p in solved] + [s.submitted_at for s in data.recent_submissions]
 
+    act = data.activity
+    days = sorted(act.daily_counts) if act else []
+    years_with_data = sorted({d.year for d in days})
+    today = datetime.now(timezone.utc).date()
+    expect_zero_streak = bool(days) and days[-1] < today - timedelta(days=1)
+
     def check(name: str, ok: bool, detail: str = "") -> dict:
         return {"check": name, "ok": bool(ok), "detail": detail}
 
@@ -40,6 +47,22 @@ def run_checks(data) -> list[dict]:
         check("failed attempts kept", any(s.status != "Accepted" for s in data.recent_submissions),
               str(dict(Counter(s.status for s in data.recent_submissions)))),
         check("calendar present", data.activity is not None and bool(data.activity.daily_counts)),
+        check("calendar covers every active year",
+              act is not None and set(act.active_years) <= set(years_with_data),
+              f"active_years={act.active_years if act else None}, with data={years_with_data}"),
+        check("total_active_days == days with activity",
+              act is not None and act.total_active_days == sum(1 for v in act.daily_counts.values() if v > 0),
+              f"{act.total_active_days if act else None} vs {len(days)}"),
+        check("current streak not stale",
+              act is not None and (act.current_streak == 0 if expect_zero_streak else True),
+              f"streak={act.current_streak if act else None}, last_active={days[-1] if days else None}"),
+        check("contest data present",
+              stats.contest is not None and "contest" not in meta.failed_sections,
+              str(stats.contest.model_dump() if stats.contest else None)),
+        check("contest rating <= max_rating",
+              stats.contest is None or stats.contest.rating is None
+              or (stats.contest.max_rating or 0) >= stats.contest.rating,
+              ""),
         check("auth status", meta.auth_status.value == "authenticated", meta.auth_status.value),
         check("solved list complete", meta.solved_problems_status.value == "complete",
               f"{meta.solved_problems_status.value}, expected={meta.solved_problems_expected}"),

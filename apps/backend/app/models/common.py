@@ -41,6 +41,14 @@ class Submission(BaseModel):
     status: str
     language: str | None = None
 
+class ContestStatistics(BaseModel):
+    """Rated-contest standing. None means the platform did not provide the value."""
+
+    rating: int | None = None
+    max_rating: int | None = None
+    rank_title: str | None = None  # platform's own label, e.g. "expert"
+    contests_attended: int | None = None
+
 
 class PlatformStatistics(BaseModel):
     """Aggregate statistics. None means the platform did not provide the value."""
@@ -53,6 +61,7 @@ class PlatformStatistics(BaseModel):
     accepted_submissions: int | None = None
     language_stats: dict[str, int] = Field(default_factory=dict)
     topic_stats: dict[str, int] = Field(default_factory=dict)
+    contest: ContestStatistics | None = None
 
 
 class ActivityCalendar(BaseModel):
@@ -65,6 +74,7 @@ class ActivityCalendar(BaseModel):
 
 
 class AuthStatus(StrEnum):
+    NOT_REQUIRED = "not_required"
     NOT_CONFIGURED = "not_configured"
     AUTHENTICATED = "authenticated"
     FAILED = "failed"
