@@ -40,3 +40,4 @@ apps/backend/README.md
 apps/backend/pyproject.toml
 apps/backend/src/
 apps/backend/uv.lock
+*json
