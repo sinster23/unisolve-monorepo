@@ -41,3 +41,7 @@ apps/backend/pyproject.toml
 apps/backend/src/
 apps/backend/uv.lock
 *json
+.python-version
+pyproject.toml
+src/
+uv.lock
