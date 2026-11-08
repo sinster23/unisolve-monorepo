@@ -28,6 +28,7 @@ from app.scrapers.leetcode.exceptions import (
 )
 from app.scrapers.leetcode.models import (
     CalendarResponse,
+    ContestResponse,
     MatchedUser,
     ProfileResponse,
     RecentAcceptedResponse,
@@ -160,6 +161,16 @@ class LeetCodeScraper:
             raise ResponseParsingError("LeetCode response had no userCalendar.")
         return response.matched_user.user_calendar
 
+    async def fetch_contest(self, username: str) -> ContestResponse:
+        """Current contest rating plus per-contest history (public, no login)."""
+        try:
+            return await self._query(
+                queries.CONTEST_QUERY, ContestResponse, {"username": username}, what="contest"
+            )
+        except APIError as exc:
+            self._raise_if_user_missing(exc)
+            raise
+
     # ---- authenticated: solved problems -----------------------------------------
     async def _verify_session_owner(self, username: str) -> None:
         """userProgressQuestionList has no username argument: it returns the data
@@ -279,13 +290,14 @@ class LeetCodeScraper:
             meta.warnings.append(f"{section} unavailable: {exc}")
 
         # Independent public queries run concurrently.
-        profile_r, recent_r, calendar_r = await asyncio.gather(
+        profile_r, recent_r, calendar_r, contest_r = await asyncio.gather(
             self.fetch_profile(username),
             self.fetch_recent_submissions(username),
             self.fetch_calendar(username),
+            self.fetch_contest(username),
             return_exceptions=True,
         )
-        for result in (profile_r, recent_r, calendar_r):
+        for result in (profile_r, recent_r, calendar_r, contest_r):
             # Bugs and cancellation must not be turned into warnings.
             if isinstance(result, BaseException) and not isinstance(result, LeetCodeError):
                 raise result
@@ -310,7 +322,26 @@ class LeetCodeScraper:
         if isinstance(calendar_r, LeetCodeError):
             note_failure("calendar", calendar_r)
         else:
-            activity = normalizer.normalize_calendar(calendar_r)
+            # One request returns a single year: fetch every other active year too.
+            calendars = [calendar_r]
+            current_year = datetime.now(timezone.utc).year
+            missing_years: list[int] = []
+            for year in sorted(set(calendar_r.active_years) - {current_year}):
+                if self._page_delay:
+                    await asyncio.sleep(self._page_delay)
+                try:
+                    calendars.append(await self.fetch_calendar(username, year))
+                except LeetCodeError as exc:
+                    missing_years.append(year)
+                    meta.warnings.append(f"calendar for {year} unavailable: {exc}")
+            if missing_years:
+                meta.failed_sections.append("calendar_history")
+            activity = normalizer.normalize_calendar(calendars)
+
+        if isinstance(contest_r, LeetCodeError):
+            note_failure("contest", contest_r)
+        else:
+            statistics.contest = normalizer.normalize_contest(contest_r)
 
         # Authenticated solved-problem history (sequential pagination).
         solved = []
