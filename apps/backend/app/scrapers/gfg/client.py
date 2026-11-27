@@ -11,7 +11,6 @@ Messages must never contain the password or cookie values.
 """
 
 import asyncio
-import os
 from dataclasses import dataclass
 from datetime import timedelta, timezone
 from typing import Any
@@ -52,26 +51,16 @@ HTML_HEADERS = {**BASE_HEADERS, "accept": "text/html,*/*;q=0.8"}
 
 RETRY_STATUSES = {429, 500, 502, 503, 504}
 MAX_TRIES = 3
-DEFAULT_CONCURRENCY = 16
-DEFAULT_UTC_OFFSET_MINUTES = 330  # GFG's "subtime" strings are IST
 
 
 # ---- configuration -------------------------------------------------------------
-def _setting(settings: Settings, name: str) -> str | None:
-    """Read a GFG setting from Settings if the field exists, else from the environment.
-
-    The env fallback means the adapter works on Vercel (real env vars) even if
-    the gfg_* fields have not been added to app/config.py yet.
-    """
-    value: Any = getattr(settings, name, None)
-    if value is None:
-        value = os.environ.get(name.upper())
+def _clean(value: Any) -> str | None:
+    """Unwrap a SecretStr, strip whitespace, and treat empty as not set."""
     if value is None:
         return None
     if hasattr(value, "get_secret_value"):
         value = value.get_secret_value()
-    value = str(value).strip()
-    return value or None
+    return str(value).strip() or None
 
 
 @dataclass(frozen=True)
@@ -90,19 +79,13 @@ class GFGConfig:
 
     @classmethod
     def from_settings(cls, settings: Settings) -> "GFGConfig":
-        def _int(name: str, default: int) -> int:
-            try:
-                return int(_setting(settings, name) or default)
-            except ValueError:
-                return default
-
         return cls(
-            cookie=_setting(settings, "gfg_cookie"),
-            username=_setting(settings, "gfg_username"),
-            password=_setting(settings, "gfg_password"),
-            concurrency=max(1, _int("gfg_concurrency", DEFAULT_CONCURRENCY)),
-            timeout=float(getattr(settings, "request_timeout", 15.0) or 15.0),
-            tz=timezone(timedelta(minutes=_int("gfg_utc_offset_minutes", DEFAULT_UTC_OFFSET_MINUTES))),
+            cookie=_clean(settings.gfg_cookie),
+            username=_clean(settings.gfg_username),
+            password=_clean(settings.gfg_password),
+            concurrency=max(1, settings.gfg_concurrency),
+            timeout=settings.request_timeout,
+            tz=timezone(timedelta(minutes=settings.gfg_utc_offset_minutes)),
         )
 
 

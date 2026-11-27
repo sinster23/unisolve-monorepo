@@ -25,12 +25,15 @@ class Settings(BaseSettings):
     cses_username: str | None = None
     cses_password: SecretStr | None = None
     codeforces_username: str | None = None
+    github_token: SecretStr | None = None
+    github_username: str | None = None
+    github_gist_id: str | None = None
     # GeeksforGeeks: either a raw browser cookie string (gfg_cookie), or
     # gfg_username + gfg_password. The cookie wins when both are set.
     gfg_cookie: SecretStr | None = None
     gfg_username: str | None = None
     gfg_password: SecretStr | None = None
-    gfg_concurrency: int = 16  # max in-flight requests to GFG
+    gfg_concurrency: int = 32  # max in-flight requests to GFG
     gfg_utc_offset_minutes: int = 330  # GFG's "subtime" strings are IST (UTC+5:30)
     request_timeout: float = 15.0
 
